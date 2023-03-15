@@ -8,7 +8,7 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 1170px;
+    width: 100% !important;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -49,14 +49,16 @@ span{
 }
 .header-right{
     float: right;
+    border-radius: 30px;
+    margin-right: 50px;
 }  
 .header-right  i{
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 15px;
     color: white;
 }
 input{
-    border-radius: 7px;
+    border-radius: 5px;
     height: 20px;
 }
 footer{
