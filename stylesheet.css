@@ -13,38 +13,52 @@ a{
     padding: 0 15px;
 }
 header {
-    height: 80px;
+    height: 70px;
     width: 100%;
     background-color: #1a1a1a;
     position:fixed;
     top:0;
     z-index:10;
-  }
-  .header-left {
+}
+.header-left {
     float: left;
-  }
-  .header-left h1{
+}
+.header-left h1{
     float: right;
     font-size: 23px;
     margin-top: 20px;
     color: white;
-  }
-  span{
+}
+span{
     color: #F7C873;
-  }
-  .header-right {
-    float: right;
+}
+.navbar{
+    text-align: center;
     transition: all 0.5s;
-  }
-  .header-right a:hover {
+}
+.navbar a:hover {
     background-color: #FAEBCD;
     display: inline-block;
     color: black;
-    border-radius: 5px solid;
-  }
-  .header-right a {
+}
+.navbar a {
     line-height: 65px;
     padding: 0;
     color: white;
     margin-right: 20px;
-  }
+}
+.header-right{
+    float: right;
+}  
+.header-right  i{
+    margin-top: 25px;
+    margin-right: 25px;
+    color: white;
+}
+input{
+    border-radius: 7px;
+    height: 20px;
+}
+footer{
+    padding-top: 100px ;
+}
