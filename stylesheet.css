@@ -275,3 +275,27 @@ body {
 }
 
 /*CSS Reservation END*/
+.footer{
+    background-color:  #333333;
+    height: 150px;
+}
+.footer h1{
+    float: left;
+    font-size: 23px;
+    margin-top: 15px;
+    color: white;
+  }
+.footer-list{
+    float: right;
+}
+.footer-list a{
+    padding-top: 10px;
+    color: white;
+    margin-right: 10px;
+    list-style: none;
+    display: block;
+}
+.footer-list a:hover{
+    background-color: #faebcd;
+    display: inline-block;
+}
