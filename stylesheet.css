@@ -119,153 +119,152 @@ footer {
 }
 
 /* CSS Reservation Start */
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: "Montserrat", sans-serif;
-}
 
 .reservation {
-  padding-top: 20px;
-  padding-bottom: 80px;
-  background-color: #1a1a1a;
-  color: #f8f8f8;
-  width: 100%;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-color: #1a1a1a;
+	color: #f8f8f8;
 }
 
 .container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 
 .heading {
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.2;
-  margin-bottom: 16px;
-  margin-top: 0;
-  text-transform: uppercase;
-  text-align: center;
-  color: #f7c873;
+	font-size: 30px;
+  	font-weight: 300;
+  	line-height: 1.2;
+  	margin-bottom: 40px;
+  	margin-top: 0;
+  	text-transform: uppercase;
+  	text-align: center;
+  	color: #f7c873;
 }
 .books {
-  border: 1px solid #f7c873;
+	border: 1px solid #f7c873;
 }
 .book {
-  width: 50%;
-  float: left;
-  margin-top: 20px;
-  padding: 20px;
-  box-sizing: border-box;
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 .book-diskon {
-  position: relative;
-}
 
-.book-diskon span {
-  background-image: url(img/about1.png);
-  position: absolute;
-  top: 40px;
+	position: relative;
+    height: 500px;
 }
 
 .book-diskon h1 {
-  font-size: 80px;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #f7c873;
-  text-indent: 20px;
+	font-size: 100px;
+  	line-height: 1.5;
+	text-transform: uppercase;
+	color: #f7c873;
+	text-align: center;
 }
 .book-diskon h2 {
-  font-size: 30px;
-  line-height: 1.2;
-  text-transform: uppercase;
+	font-size: 30px;
+    margin: 10px 0;
+	line-height: 1.5;
+	text-transform: uppercase;
+    text-align: center;
 }
 
 .book-diskon p {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: justify;
-  padding-right: 30px;
+	font-size: 16px;
+    margin: 10px 0;
+	line-height: 1.5;
+	text-align: justify;
+	padding-right: 30px;
 }
 
 .book-diskon ul {
-  list-style: none;
+	list-style: none;
 }
 .book-diskon ul li:before {
-  line-height: 1.5;
-  content: "\2714\0020";
-  color: #f7c873;
-  font-size: 18px;
-  margin-left: -20px;
+	line-height: 1.5;
+	content: '\2714\0020';
+	color: #f7c873;
+	font-size: 18px;
+	margin-left: 20px;
 }
 
 .book-form {
-  height: 500px;
-  position: relative;
-  background-color: #f7c873;
-  border-radius: 10px;
+	height: 500px;
+	position: relative;
+	background-color: #f7c873;
+	border-radius: 10px;
 }
 
 .book-form h2 {
-  font-size: 32px;
-  line-height: 1.2;
-  color: #1a1a1a;
-  text-align: center;
-  padding-top: 10px;
-  box-sizing: border-box;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #1a1a1a;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
 }
 
 .form-group {
-  margin: 10px 15px;
-  padding: auto;
-  text-align: center;
+	margin: 10px 15px;
+	padding: auto;
+	text-align: center;
 }
 
-.form-group input {
-  width: 90%;
-  padding: 15px;
-  font-size: 18px;
-  border: 1px solid #1a1a1a;
-  box-shadow: 0 0 0 2px #faebcd;
-  border-radius: 5px;
-  color: #1a1a1a;
+.form-group input{
+	width: 450px;
+  	padding: 15px;
+  	font-size: 18px;
+  	border: 1px solid #1a1a1a;
+  	box-shadow: 0 0 0 2px #faebcd;
+  	border-radius: 5px;
+  	color: #1a1a1a;
 }
 
 .form-group select {
-  width: 90%;
-  padding: 15px;
-  font-size: 18px;
-  border: 1px solid #1a1a1a;
-  box-shadow: 0 0 0 2px #faebcd;
-  border-radius: 5px;
-  color: #1a1a1a;
+	width: 480px;
+  	padding: 15px;
+  	font-size: 18px;
+  	border: 1px solid #1a1a1a;
+  	box-shadow: 0 0 0 2px #faebcd;
+  	border-radius: 5px;
+  	color: #1a1a1a;	
 }
 
 .form-group button {
-  width: 90%px;
-  background-color: #1a1a1a;
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border: 1px solid #1a1a1a;
-  box-shadow: 0 0 0 2px #faebcd;
-  border-radius: 5px;
-  color: #f7c873;
-  cursor: pointer;
+	border: 0;
+    width: 480px;
+	background-color: #1a1a1a;
+	margin-top: 10px;
+  	padding: 10px;
+  	font-size: 18px;
+  	border-radius: 5px;
+  	color: #f7c873;
+    box-shadow: 3px 3px 3px 0 #414141;
+    cursor: pointer;
+}
+
+.form-group button:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
 }
 
 /*micro clearfix*/
 .cf:before,
 .cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
 .cf:after {
-  clear: both;
+    clear: both;
 }
 
 /**
@@ -273,7 +272,7 @@ body {
  * Include this rule to trigger hasLayout and contain floats.
  */
 .cf {
-  *zoom: 1;
+    *zoom: 1;
 }
 
 /*CSS Reservation END*/
