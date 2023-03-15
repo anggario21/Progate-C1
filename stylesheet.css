@@ -8,10 +8,10 @@
 a {
   text-decoration: none;
 }
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 header {
   height: 70px;
@@ -36,7 +36,7 @@ header {
 .menu-icon {
   float: right;
   font-size: 25px;
-  padding: 21px 50px;
+  padding: 21px 30px;
   display: none;
   color: #1a1a1a;
 }
@@ -82,11 +82,12 @@ footer {
   background-size: cover;
   background-position: center;
   position: relative;
+  width: 100%;
 }
 .main .main-content {
   margin-left: 10px;
   padding: 1.1rem 7%;
-  max-width: 40rem;
+  max-width: 1170px;
 }
 .main .main-content h1 {
   color: #fff;
@@ -130,10 +131,11 @@ body {
   padding-bottom: 80px;
   background-color: #1a1a1a;
   color: #f8f8f8;
+  width: 100%;
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -223,7 +225,7 @@ body {
 }
 
 .form-group input {
-  width: 450px;
+  width: 90%;
   padding: 15px;
   font-size: 18px;
   border: 1px solid #1a1a1a;
@@ -233,7 +235,7 @@ body {
 }
 
 .form-group select {
-  width: 480px;
+  width: 90%;
   padding: 15px;
   font-size: 18px;
   border: 1px solid #1a1a1a;
@@ -243,7 +245,7 @@ body {
 }
 
 .form-group button {
-  width: 480px;
+  width: 90%px;
   background-color: #1a1a1a;
   margin-top: 10px;
   padding: 10px;
