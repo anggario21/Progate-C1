@@ -1,7 +1,4 @@
 @media (max-width: 1000px) {
-}
-
-@media (max-width: 670px) {
   .navbar {
     display: none;
   }
@@ -14,6 +11,9 @@
   h1 {
     font-size: 30px;
   }
+}
+
+@media (max-width: 670px) {
   .main .main-content h1 {
     font-size: 30px;
     color: #fff;
@@ -30,10 +30,33 @@
   .beli {
     text-align: center;
   }
+  .reservation h1 {
+    font-size: 30px;
+    text-align: center;
+  }
   .book {
     width: 100%;
   }
   .book-form {
     height: 400px;
+  }
+  .book-diskon h1 {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .book-diskon h2,
+  li {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .book-diskon p {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 }
