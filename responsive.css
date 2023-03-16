@@ -8,6 +8,9 @@
   .menu-icon {
     color: #f7c873;
   }
+  .menu-card {
+    width: 50%;
+  }
   h1 {
     font-size: 30px;
   }
@@ -49,6 +52,9 @@
     font-size: 18px;
     line-height: 22px;
   }
+  .menu-card {
+    width: 100%;
+  }
 
   .beli {
     text-align: center;
@@ -85,5 +91,18 @@
   }
   .footer h1 {
     font-size: 16px;
+  }
+  .about .row {
+    display: block;
+  }
+  .about .row .about-img {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .about .row .content {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
   }
 }

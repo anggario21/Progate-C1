@@ -6,6 +6,10 @@
 }
 /* digunakan untuk mengatur warna */
 
+.clear {
+  clear: left;
+}
+
 * {
   margin: 0 auto;
   padding: 0px;
@@ -131,6 +135,7 @@ footer {
 .about,
 .menu {
   padding-top: 5rem;
+  padding-bottom: 10px;
 }
 /* atur padding-top untuk menyesuaikan tinggi header */
 
@@ -147,11 +152,13 @@ footer {
 }
 
 .about .row {
+  max-width: 1170px;
   display: flex;
 }
 
 .about .row .about-img {
   margin-left: 3rem;
+  width: 30%;
 }
 
 .about .row .about-img img {
@@ -159,7 +166,8 @@ footer {
 }
 
 .about .row .content {
-  padding: 0 6rem;
+  padding-left: 20px;
+  width: 70%;
 }
 
 .about .row .content h3 {
@@ -182,33 +190,31 @@ footer {
 
 .menu p {
   text-align: center;
-  max-width: 30rem;
   margin: auto;
   font-weight: 100;
   line-height: 1.6;
   font-size: 1.3rem;
 }
 
-.menu .row {
-  display: flex;
-  flex-wrap: wrap;
+.row {
   margin-top: 1rem;
-  justify-content: center;
 }
 
-.menu .row .menu-card {
+.menu-card {
   text-align: center;
   padding-bottom: 4rem;
-  padding: 0 5rem;
   margin-top: 3rem;
+  width: 25%;
+  float: left;
 }
 
-.menu .row .menu-card img {
-  border-radius: 50%;
+.menu-card img {
   width: 220px;
+  border-radius: 50%;
+  text-align: center;
 }
 
-.menu .row .menu-card .menu-card-tittle {
+.menu-card-tittle {
   margin-top: 1rem auto 0.5rem;
 }
 /* Menu end */
